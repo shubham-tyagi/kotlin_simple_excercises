@@ -1,4 +1,5 @@
 fun main() {
+
  // Create an immutable list, a mutable list, and an arraylist of the elements: “Lionel Messi”, 
  // “Wayne Rooney”, “Luka Modric”, “Eden Hazard”, “Sergio Aguero”. Print all the above three lists.
 
@@ -7,7 +8,7 @@ fun main() {
  var list3: List<String> = arrayListOf("Lionel Messi", "Wayne Rooney", "Luka Modric", "Eden Hazard", "Sergio Aguero")
 
  list2[0] = "Shubham Tyagi" // we can change this element because it is mutable list
-
+ list2.add(index = 1, element = "Neymar Jr")
  println("\n $list1 \n")
  println(" $list2 \n")
  println(" $list3 ")
